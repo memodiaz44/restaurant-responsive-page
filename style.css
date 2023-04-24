@@ -1,0 +1,343 @@
+:root{
+    --bg-active: rgb(226, 95, 30);
+
+}
+
+body{
+    background-color: rgb(14, 12, 12);
+    background-image: url("res.jpg"), url('chef.jpg');
+   background-size: 100%;
+  border: solid wheat 6px;
+   background-repeat:no-repeat;
+   
+   padding-bottom: 10%;
+   
+   padding-right: 30px;
+
+}
+
+.img{
+    height: 20px;
+}
+
+.topbar {
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -40px;
+    width: 0%px;
+    height: 100px;
+    background-color: rgb(15, 15, 29);
+    border: solid wheat 3px;
+    color: aliceblue;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: right;
+    font-size: large;
+    padding-right: 1px;
+    font-family: 'Quicksand', sans-serif;
+    
+}
+
+
+@media screen and (min-width: 385)  {
+
+    .topbar {
+         width: 150%;   
+         margin-left: 40%; 
+  
+    }
+    
+  }
+
+.container {
+    margin-left: 0%;
+    width: 103%;
+    height: 90;
+    padding-left: 3%;
+   
+    
+    color: aliceblue;
+    align-items: center;
+    font-family: 'Quicksand', sans-serif;
+    padding: 0%;
+    position: relative;
+   
+  
+          
+   
+}
+
+@media screen and (max-width: 385px)  {
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+  
+    }
+    
+  }
+
+.text1{
+    margin-left: 20%;
+    padding-top: -10%;
+    padding-bottom: px;
+    border-radius: 15%;
+    border: solid wheat ;
+    width: 93px;
+    height: 40px;
+    background-color: rgb(77, 86, 86);
+}
+
+@media screen and (max-width: 385px)  {
+
+    .text1 {
+       width: 40%;
+       font-size: small;
+  
+    }
+    
+  }
+
+.text1:hover{
+    color: rgb(28, 28, 52);
+    background-color: azure;
+
+}
+
+.text2{
+    
+    margin-top: -60px;
+    margin-left: 46%;
+    border-radius: 15%;
+    border: solid wheat ;
+    width: 93px;
+    height: 40px;
+    max-width: 93px;
+    max-height: 40px;
+    background-color: rgb(77, 86, 86);
+}
+
+@media screen and (max-width: 385px)  {
+
+    .text2 {
+       width: 50%;
+       font-size: small;
+       margin-left: 20px;
+       margin-top: 20px;
+  
+    }
+    
+  }
+
+
+.text2:hover{
+    color: rgb(28, 28, 52);
+    background-color: azure;
+
+}
+
+
+.text3{
+    margin-left: 67%;
+    margin-top: -62px;
+    border-radius: 15%;
+    border: solid wheat ;
+    width: 150px;
+    height: 40px;
+    background-color: rgb(77, 86, 86);
+    
+  
+}
+
+@media screen and (max-width: 385px)  {
+
+    .text3 {
+       width: 70%;
+       font-size: small;
+       margin-left: 23px;
+       margin-top: 20px;
+  
+    }
+    
+  }
+
+.text3:hover{
+    color: rgb(28, 28, 52);
+    background-color: azure;
+
+}
+
+.active{
+    background:  var(--bg-active);
+}
+
+.text2-active{
+    background:  var(--bg-active);
+}
+
+.text3-active{
+    background:  var(--bg-active);
+}
+
+.home{
+    color: aliceblue;
+    width: 50%;
+    height: 60%;
+    margin-left: 30%;
+    padding-left: 2%;
+    background-color: rgb(245, 206, 116);
+    display: none;
+    border: solid white 1px;
+    border-radius: 20px;
+    margin-bottom: 2px;
+
+
+}
+
+@media screen and (max-width: 385px)  {
+
+    .home {
+     
+       font-size: 6px;
+       margin-left: 23px;
+       margin-top: 20px;
+  
+    }
+    
+  }
+
+
+.menu{
+    color: aliceblue;
+    width: 50%;
+    height: 60%;
+    margin-left: 30%;
+    padding-left: 2%;
+    background-color: rgb(245, 206, 116);
+    display: none;
+    border: solid white 1px;
+    border-radius: 20px;
+    background-image:  url("image1.png");
+    background-size: cover;
+
+}
+
+.menu2{
+    color: aliceblue;
+    width: 50%;
+    height: 60%;
+    margin-left: 30%;
+    padding-left: 2%;
+    background-color: rgb(245, 206, 116);
+    display: none;
+    border: solid white 1px;
+    border-radius: 20px;
+    background-image:  url("image2.png");
+    background-size: cover;
+
+}
+
+@media screen and (max-width: 385px)  {
+
+    .menu {
+     
+       font-size: 10px;
+       margin-left: 23px;
+       margin-top: 20px;
+  
+    }
+    
+  }
+
+.menu3{
+    color: aliceblue;
+    width: 50%;
+    height: 60%;
+    margin-left: 30%;
+    padding-left: 2%;
+    background-color: rgb(245, 206, 116);
+    display: none;
+    border: solid white 1px;
+    border-radius: 20px;
+    background-image:  url("image3.png");
+    background-size: cover;
+
+}
+
+@media screen and (max-width: 385px)  {
+
+    .menu2 {
+     
+       font-size: 10px;
+       margin-left: 23px;
+       margin-top: 20px;
+  
+    }
+    
+  }
+
+  @media screen and (max-width: 385px)  {
+
+    .menu3 {
+     
+       font-size: 10px;
+       margin-left: 23px;
+       margin-top: 20px;
+  
+    }
+    
+  }
+
+
+.contact{
+    color: aliceblue;
+    width: 50%;
+    height: 60%;
+    margin-left: 30%;
+    padding-left: 2%;
+    background-color: rgb(245, 206, 116);
+    display: none;
+    border: solid white 1px;
+    border-radius: 20px;
+    padding-top: 2%;
+
+}
+
+@media screen and (max-width: 385px)  {
+
+    .contact {
+     
+       font-size: 10px;
+       margin-left: 23px;
+       margin-top: 20px;
+  
+    }
+    
+  }
+
+.touch{
+    margin-left: 20%;
+    color: rgb(28, 18, 18);
+}
+
+.input{
+    margin-left: 20%;
+    color: rgb(28, 18, 18);
+}
+
+.submit {
+    margin-left: 25%;
+}
+
+@media screen and (max-width: 385px)  {
+
+    .input {
+     
+       font-size: 10px;
+       width: 70px;
+    
+  
+    }
+    
+  }
